@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+#main{
+    width: 100%;
+    background-color: #FF7979;
+    background-image: url(./img/bg-intro-desktop\ \(1\).png) 
+}
+#mainTextdiv h1{
+    font-family: Poppins;
+    text-align: center;
+font-weight: 700;
+color: #FFFF;
+
+
+}
+#mainTextdiv p{
+    font-family: Poppins;
+
+    font-weight: 500;
+   
+    text-align: center;
+    color: #FFFF;    
+
+
+}
+#mainTextdiv{
+    padding-top: 20%;
+}
+#mainCard{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#card{
+    box-shadow: 0px 8px 0px 0px #00000025;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 30px;
+    background-color: #FFFF;
+}
+#PriceButton{
+
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.2678571045398712px;
+text-align: center;
+box-shadow: 0px 8px 0px 0px #00000025;
+
+
+    border: none;
+    color: #FFFF;
+    border-radius: 10px;
+    padding: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #5E54A4;
+}
+#input{
+    border: 1px solid #DEDEDE;
+    padding: 5%;
+    border-radius: 10px;
+    
+}
+#input::placeholder{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    
+}
+
+#claimButton{
+    background-color: #38CC8B;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom:5% ;
+    font-family: Poppins;
+color: #FFFF;
+font-weight: 600;
+
+text-align: center;
+
+
+
+}
+a{
+
+    text-decoration: none;
+    color: #FF7979;
+    font-family: Poppins;
+    font-size: 11px;
+font-weight: 700;
+text-align: center;
+
+}
+#lastSpan{
+
+font-size: 11px;
+font-family: Poppins;
+color: #BAB7D4;
+font-weight: 500;
+text-align: center;
+
+}
+#input{
+    width: 100%;
+   }
+   #inputDIv{
+    position: relative;
+   }
+   #span{
+    position: absolute;
+    right: 0;
+    top: 100%;
+   }
+   .ovalImg{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+   }
+   #span{
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    color: #FF7979;
+
+   }
+   
+@media(width > 760px){
+    #main{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mainTextdiv{ 
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #mainTextdiv p{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 70%;
+        text-align: left;
+    }
+    #mainTextdiv h1{ 
+       width: 70%;
+
+        text-align: start;
+    }
+   #PriceButton {
+   width: 30rem;
+   padding-top: 5% ;
+   padding-bottom: 5% ;
+   }
+   #input:focus{
+    outline: 1px solid #5E54A4
+   }
+   #input{
+    width: 100%;
+   }
+   #inputDIv{
+    position: relative;
+   }
+   #span{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+   }
+   .ovalImg{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    display: none;
+   }
+   #span{
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    color: #FF7979;
+
+   }
+   
+}
+
+
+
+
+
+
+
